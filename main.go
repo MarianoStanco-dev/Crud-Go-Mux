@@ -71,7 +71,7 @@ func updateTask(w http.ResponseWriter, r *http.Request) {
 			tasks = append(tasks[:i], tasks[i+1:]...)
 			updateTask.Id = taskId
 			tasks = append(tasks, updateTask)
-			fmt.Fprintf(w, " La tarea %v ha sido actualizada factifactoriamente ", taskId)
+			fmt.Fprintf(w, " La tarea %v ha sido actualizada sastifactoriamente ", taskId)
 			return
 		}
 
